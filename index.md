@@ -2,31 +2,38 @@
 layout: default
 ---
 
-# Hello, I'm [Your Name]
+<div class="container">
+  <div class="left-section">
+    <div class="profile-section">
+      <img src="avatar1.png" alt="Profile Picture" class="avatar">
+      <h1>Your Name</h1>
+      <div class="title">Frontend Developer | UI/UX Designer</div>
+    </div>
+    
+    <div class="about-section">
+      <h2>About Me</h2>
+      <p>I'm a passionate developer focused on creating beautiful and functional web experiences. I specialize in frontend development and UI/UX design.</p>
+    </div>
+    
+    <div class="contact-links">
+      <a href="mailto:your.email@example.com">Email</a>
+      <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+      <a href="https://github.com/yourusername">GitHub</a>
+      <a href="path/to/resume.pdf">Resume</a>
+    </div>
+  </div>
 
-Frontend Developer | UI/UX Designer
-
-## About Me
-
-I'm a passionate developer focused on creating beautiful and functional web experiences. I specialize in frontend development and UI/UX design.
-
-## Contact
-
-- 📧 [Email](mailto:your.email@example.com)
-- 💼 [LinkedIn](https://linkedin.com/in/yourusername)
-- 💻 [GitHub](https://github.com/yourusername)
-- 📄 [Resume](link-to-your-resume.pdf)
-
-## Projects
-
-### Project 1
-🔗 [Live Demo](link) | 💻 [Code](link)
-Description of your project
-
-### Project 2
-🔗 [Live Demo](link) | 💻 [Code](link)
-Description of your project
-
-### Project 3
-🔗 [Live Demo](link) | 💻 [Code](link)
-Description of your project
+  <div class="projects-section">
+    <h2>Work</h2>
+    {% for post in site.posts %}
+    <div class="project-card">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.description }}</p>
+      <div class="project-links">
+        <a href="{{ post.demo_link }}">Live Demo</a>
+        <a href="{{ post.code_link }}">Code</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
