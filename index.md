@@ -18,9 +18,9 @@ layout: default
     </div>
     
     <div class="contact-links">
-      <a href="mailto:your.email@example.com">Email</a>
-      <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
-      <a href="https://github.com/yourusername">GitHub</a>
+      <a href="mailto:teymarrpage@tuta.io">Email</a>
+      <a href="https://linkedin.com/in/teymarrpagedev/">LinkedIn</a>
+      <a href="https://github.com/tey-dev">GitHub</a>
       <a href="path/to/resume.pdf">Resume</a>
     </div>
   </div>
