@@ -1,7 +1,7 @@
 body {
-    background-color: #0d1117;
+    background-color: #000000;
     color: #ffffff;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, Serif;
     margin: 0;
     padding: 2rem;
 }
@@ -23,9 +23,9 @@ body {
 }
 
 .avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 8px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
     margin-bottom: 1.5rem;
 }
 
@@ -52,16 +52,16 @@ h1, h2 {
 }
 
 .contact-links a:hover {
-    color: #58a6ff;
+    color: #504a4a;
 }
 
 .projects-section {
-    background-color: #0d1117;
+    background-color: #000000;
 }
 
 .project-card {
-    background-color: #161b22;
-    border: 1px solid #30363d;
+    background-color: #292929;
+    border: 3px solid #ffffff;
     border-radius: 6px;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -73,27 +73,16 @@ h1, h2 {
 }
 
 .project-card p {
-    color: #8b949e;
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
 .project-links a {
-    color: #ffffff;
+    color: #717171;
     text-decoration: none;
     margin-right: 1rem;
 }
 
 .project-links a:hover {
     color: #58a6ff;
-}
-
-@media (max-width: 768px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
-    
-    .left-section {
-        padding-right: 0;
-    }
-}
 
