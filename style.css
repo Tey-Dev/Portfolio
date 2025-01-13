@@ -104,19 +104,19 @@ h2 {
 }
 
 .project-links a {
-    color: #58a6ff; /* Blue for links */
+    color: #ffffff; /* Blue for links */
     text-decoration: none;
     font-weight: bold;
     margin-right: 1rem;
     padding: 0.4rem 0.8rem;
     background-color: transparent;
-    border: 1px solid #58a6ff; /* Border matches link color */
+    border: 1px solid #ffffff; /* Border matches link color */
     border-radius: 6px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .project-links a:hover {
-    background-color: #58a6ff; /* Blue background on hover */
+    background-color: #ffffff; /* Blue background on hover */
     color: #000000; /* Black text on hover */
 }
 
