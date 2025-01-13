@@ -32,9 +32,10 @@ layout: default
       <h3>{{ post.title }}</h3>
       <p>{{ post.description }}</p>
       <div class="project-links">
+        <a href="{{ post.url }}" target="_blank">Read More</a>
+        <a href="{{ post.code_link }}" target="_blank">Code</a>
       </div>
     </div>
     {% endfor %}
   </div>
 </div>
-
