@@ -1,16 +1,16 @@
 body {
-    background-color: #000000;
-    color: #ffffff;
-    font-family: 'Times New Roman', Times, Serif;
+    background-color: #000000; /* Dark black background */
+    color: #ffffff; /* White text */
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman font */
     margin: 0;
     padding: 2rem;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1200px; /* Maximum container width */
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; /* Two-column layout */
     gap: 2rem;
 }
 
@@ -20,69 +20,124 @@ body {
 
 .profile-section {
     margin-bottom: 2rem;
+    text-align: center; /* Center aligns the content */
 }
 
 .avatar {
-    width: 350px;
+    width: 350px; /* Larger profile picture */
     height: 350px;
-    border-radius: 50px;
+    border-radius: 50%; /* Circular image */
     margin-bottom: 1.5rem;
+    border: 3px solid #ffffff; /* Add a white border */
 }
 
-h1, h2 {
-    color: #ffffff;
+h1 {
+    font-size: 2.5rem; /* Larger heading size */
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 
 .title {
-    color: #8b949e;
+    color: #8b949e; /* Subtle gray text for title */
     margin-bottom: 2rem;
+    font-style: italic; /* Adds emphasis */
 }
 
 .contact-links {
     margin-top: 1.5rem;
+    text-align: center; /* Aligns links centrally */
 }
 
 .contact-links a {
-    display: block;
-    color: #ffffff;
+    display: inline-block; /* Inline-block for styling */
+    color: #ffffff; /* White links */
     text-decoration: none;
-    margin-bottom: 0.5rem;
-    transition: color 0.2s ease;
+    margin: 0.5rem 1rem; /* Adjusted margin for spacing */
+    padding: 0.5rem 1rem; /* Padding for clickable area */
+    background-color: #292929; /* Background color for links */
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .contact-links a:hover {
-    color: #504a4a;
+    color: #000000; /* Black text on hover */
+    background-color: #ffffff; /* White background on hover */
 }
 
 .projects-section {
     background-color: #000000;
+    padding: 2rem;
+    border-radius: 8px; /* Rounded edges for the projects section */
+    text-align: center;
 }
 
 .project-card {
-    background-color: #292929;
-    border: 3px solid #ffffff;
-    border-radius: 6px;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    background-color: #292929; /* Dark gray background */
+    border: 3px solid #ffffff; /* White border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    background-color: #333333; /* Slightly lighter gray on hover */
 }
 
 .project-card h3 {
     margin-top: 0;
     margin-bottom: 0.5rem;
+    color: #ffffff; /* White for project titles */
+    font-size: 1.5rem;
 }
 
 .project-card p {
-    color: #ffffff;
+    color: #d3d3d3; /* Light gray for descriptions */
     margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
 .project-links a {
-    color: #717171;
+    color: #58a6ff; /* Blue for links */
     text-decoration: none;
+    font-weight: bold;
     margin-right: 1rem;
+    padding: 0.4rem 0.8rem;
+    background-color: transparent;
+    border: 1px solid #58a6ff; /* Border matches link color */
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .project-links a:hover {
-    color: #58a6ff;
+    background-color: #58a6ff; /* Blue background on hover */
+    color: #000000; /* Black text on hover */
+}
 
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: #8b949e;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Single-column layout for small screens */
+    }
+    
+    .left-section {
+        padding-right: 0;
+    }
+
+    .avatar {
+        width: 250px; /* Smaller profile picture on mobile */
+        height: 250px;
+    }
+}
