@@ -8,8 +8,8 @@ layout: default
   <div class="left-section">
     <div class="profile-section">
       <img src="avatar1.png" alt="Profile Picture" class="avatar">
-      <h1>Your Name</h1>
-      <div class="title">Frontend Developer | UI/UX Designer</div>
+      <h1>Teymarr Page</h1>
+      <div class="title">Front-End Developer | UI/UX Designer</div>
     </div>
     
     <div class="about-section">
@@ -32,8 +32,6 @@ layout: default
       <h3>{{ post.title }}</h3>
       <p>{{ post.description }}</p>
       <div class="project-links">
-        <a href="{{ post.demo_link }}">Live Demo</a>
-        <a href="{{ post.code_link }}">Code</a>
       </div>
     </div>
     {% endfor %}
