@@ -141,3 +141,18 @@ footer {
         height: 250px;
     }
 }
+.about-section {
+    text-align: center; /* Centers the text horizontally */
+    margin: 0 auto; /* Centers the section within its container */
+    max-width: 80%; /* Optional: Adjusts the width */
+}
+
+.contact-links {
+    text-align: center; /* Ensures the buttons are also centered */
+}
+
+.profile-section {
+    text-align: center; /* Centers the profile section elements */
+    margin-bottom: 20px; /* Adds spacing below the profile picture */
+}
+
