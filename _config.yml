@@ -1,19 +1,7 @@
-# Basic site settings
 title: Your Portfolio
-description: Frontend Developer | UI/UX Designer Portfolio
-url: "https://yourusername.github.io"
-baseurl: "/portfolio"  # If your repository name is different, change this
-
-# Build settings
-markdown: kramdown
+description: Frontend Developer | UI/UX Designer
 theme: jekyll-theme-minimal
-plugins:
-  - jekyll-seo-tag
-
-# Exclude files from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .git
+show_downloads: true
+logo: avatar1.png
+github:
+  is_project_page: true
