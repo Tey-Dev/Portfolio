@@ -26,7 +26,7 @@ body {
 .avatar {
     width: 350px; /* Larger profile picture */
     height: 350px;
-    border-radius: 50%; /* Circular image */
+    border-radius: 5%; /* Low Circular image */
     margin-bottom: 1.5rem;
     border: 3px solid #ffffff; /* Add a white border */
 }
