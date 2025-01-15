@@ -155,4 +155,6 @@ footer {
     text-align: center; /* Centers the profile section elements */
     margin-bottom: 20px; /* Adds spacing below the profile picture */
 }
-
+.view, .tags {
+    display: none;
+}
