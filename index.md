@@ -8,7 +8,7 @@ layout: default
   <div class="left-section">
     <div class="profile-section">
       <img src="avatar1.png" alt="Profile Picture" class="avatar">
-      <h1>Teymarr Page</h1>
+      <h1>Malek Page (He/Him)</h1>
       <div class="title">Front-End Developer | UI/UX Designer</div>
     </div>
     
