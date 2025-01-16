@@ -8,4 +8,9 @@ code_link: "https://github.com/tey-dev/your-project"
 
 
 
-Project details here (optional, won't show on main page)
+
+
+
+Heres a few links to look at if you'd like to look into this more
+
+<a href="https://www.restaurantdive.com/news/52-of-us-diners-with-exclusion-diets-struggle-to-order-at-restaurants/550279/">Struggling When Ordering Out</a>
