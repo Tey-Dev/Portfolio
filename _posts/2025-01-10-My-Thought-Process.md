@@ -11,3 +11,5 @@ For instance, consider food delivery apps. We all use them, but many users don�
 Some might argue, “Why don’t they just cook at home instead of expecting restaurants to cook gluten-free food for customers?” Not everyone has the capability to cook, whether it’s due to lack of skills or physical limitations they don’t have to disclose. Restaurants should be able to serve everyone, and “everyone” doesn’t just include disease-free, able-bodied people.
 
 In my thinking process, I often remind myself, “Accessibility is not a privilege.” It’s not yet treated as such, so I like to consider everyone’s needs.
+
+<a href="https://www.health.com/three-ultra-processed-foods-to-limit-8771908">More Information</a>
